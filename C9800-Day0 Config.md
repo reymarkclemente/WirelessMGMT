@@ -81,12 +81,12 @@ conf t
   default-router 10.51.1.4
   dns-server 10.51.1.10
   domain-name MGMTDATA.COM
- ip dhcp pool POOLWIFI
-  network 10.51.10.0 255.255.255.0
-  default-router 10.51.10.4
-  dns-server 10.51.1.10
-  domain-name WIFIDATA.COM 
-  option 43 ip 10.51.1.7
+ip dhcp pool POOLWIFI
+ network 10.51.10.0 255.255.255.0
+ default-router 10.51.10.4 
+ domain-name WIFIDATA.COM
+ dns-server 10.51.1.10 
+ option 43 ip 10.51.10.51 
   end
 ~~~
 
